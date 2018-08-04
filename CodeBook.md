@@ -1,6 +1,7 @@
 # CodeBook for *dataMerged* and *AvgOfEachVarForEachSubAct*
 
 Set *dataMerged* is the combination of testing and training sets with 10299 obs. of 88 variables. The first 2947 obs. are testing data, and the latter 7352 obs. are training data.
+
 Set *AvgOfEachVarForEachSubAct* is an independent tidy data set with the average of each variable for each activity and each subject, with 180 obs. and 88 variables.
 
 ## Variables
