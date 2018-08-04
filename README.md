@@ -14,4 +14,5 @@ This script also includes a variable *activity_labels* from activity_labels.txt.
 
 ## openTest.R (openTrain.R is the same)
 With data in commonData.R, opening and cleaning datas from test(train) sets becomes easy. 
-We first *source* common datas. Then open x_test.txt (2947 $$\times$$ 86), y_test (2947 $$\times$$ 1)
+We first *source* common datas. Then open *x_test* (2947\*86), *y_test* (2947\*1), *subject_test* (2947\*1) from txt files respectively. (Since we only need measurements on mean and standard deviation, we *sapply* function *label_to_activity* on original *x_test* to extract columns we need.)
+From the dimentions of this there dataframes, it is easy to *cbind* s*ubject_test*, *y_test* and *x_test* into *test*.
