@@ -14,4 +14,4 @@ This script also includes a variable *activity_labels* from activity_labels.txt.
 
 ## openTest.R (openTrain.R is the same)
 With data in commonData.R, opening and cleaning datas from test(train) sets becomes easy. 
-We first *source* common datas. Then open x_test.txt (2947 \times 86), y_test (2947 \times 1)
+We first *source* common datas. Then open x_test.txt (2947 $$\times$$ 86), y_test (2947 $$\times$$ 1)
